@@ -8,8 +8,6 @@
 import UIKit
 
 class LoginRegisterViewController: UIViewController {
-
-    let env = Bundle.main.infoDictionary! ["BUAH_SEGAR_API_ENDPOINT"] as! String
     
     @IBOutlet var vLogin: UIView!
     @IBOutlet var vRegister: UIView!

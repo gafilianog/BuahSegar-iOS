@@ -17,6 +17,7 @@
 		05E762F2298E379A00BF75A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F1298E379A00BF75A3 /* LoginViewController.swift */; };
 		05E762F4298E38CA00BF75A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F3298E38CA00BF75A3 /* HomeViewController.swift */; };
 		05E762F8298E3E5500BF75A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F7298E3E5500BF75A3 /* User.swift */; };
+		05FB787B2990B07400652534 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB787A2990B07400652534 /* Fruit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		05E762F1298E379A00BF75A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		05E762F3298E38CA00BF75A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		05E762F7298E3E5500BF75A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		05FB787A2990B07400652534 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fruit.swift; path = ../../../../Fruit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				05E762F7298E3E5500BF75A3 /* User.swift */,
+				05FB787A2990B07400652534 /* Fruit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FB787B2990B07400652534 /* Fruit.swift in Sources */,
 				056B4507298E1AA200DE12ED /* LoginRegisterViewController.swift in Sources */,
 				056B4503298E1AA200DE12ED /* AppDelegate.swift in Sources */,
 				056B450D298E1AA200DE12ED /* BuahSegar_iOS.xcdatamodeld in Sources */,
@@ -309,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUAH_SEGAR_API_ENDPOINT = "https://www.fruityvice.com/api/fruit/all";
+				BUAH_SEGAR_API_ENDPOINT = "https://fruityvice.com/api/fruit/all";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -337,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUAH_SEGAR_API_ENDPOINT = "https://www.fruityvice.com/api/fruit/all";
+				BUAH_SEGAR_API_ENDPOINT = "https://fruityvice.com/api/fruit/all";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

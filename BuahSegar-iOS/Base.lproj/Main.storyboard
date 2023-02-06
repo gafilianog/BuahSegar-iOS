@@ -138,7 +138,7 @@
         <!--Home-->
         <scene sceneID="qUO-L4-RDT">
             <objects>
-                <viewController id="D03-6Z-glr" sceneMemberID="viewController">
+                <viewController id="D03-6Z-glr" customClass="HomeViewController" customModule="BuahSegar_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Res-eT-VhX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -405,6 +405,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="X56-Xy-w7M"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uQp-zZ-mpz" firstAttribute="top" secondItem="Zq3-Re-5TD" secondAttribute="top" id="389-w2-KGv"/>
@@ -434,6 +435,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ykq-Zo-0st" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aml-62-32e">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
