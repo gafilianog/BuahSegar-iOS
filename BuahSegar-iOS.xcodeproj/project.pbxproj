@@ -16,9 +16,15 @@
 		056B4512298E1AA400DE12ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056B4510298E1AA400DE12ED /* LaunchScreen.storyboard */; };
 		05E762F2298E379A00BF75A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F1298E379A00BF75A3 /* LoginViewController.swift */; };
 		05E762F4298E38CA00BF75A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F3298E38CA00BF75A3 /* HomeViewController.swift */; };
-		05E762F8298E3E5500BF75A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F7298E3E5500BF75A3 /* User.swift */; };
 		05FB787B2990B07400652534 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB787A2990B07400652534 /* Fruit.swift */; };
 		05FB787D2990C1C100652534 /* FruitItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB787C2990C1C100652534 /* FruitItemTableViewCell.swift */; };
+		05FB78822990D36200652534 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB78802990D36200652534 /* User+CoreDataClass.swift */; };
+		05FB78832990D36200652534 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB78812990D36200652534 /* User+CoreDataProperties.swift */; };
+		05FB78862990D9FD00652534 /* FavFruit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB78842990D9FD00652534 /* FavFruit+CoreDataClass.swift */; };
+		05FB78872990D9FD00652534 /* FavFruit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB78852990D9FD00652534 /* FavFruit+CoreDataProperties.swift */; };
+		05FB78892990DBCC00652534 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB78882990DBCC00652534 /* RegisterViewController.swift */; };
+		05FB788C2990DC7800652534 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB788B2990DC7800652534 /* UIViewController+ShowAlert.swift */; };
+		05FB788E2990E6FF00652534 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB788D2990E6FF00652534 /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +39,15 @@
 		056B4513298E1AA400DE12ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05E762F1298E379A00BF75A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		05E762F3298E38CA00BF75A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		05E762F7298E3E5500BF75A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		05FB787A2990B07400652534 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fruit.swift; path = ../../../../Fruit.swift; sourceTree = "<group>"; };
 		05FB787C2990C1C100652534 /* FruitItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitItemTableViewCell.swift; sourceTree = "<group>"; };
+		05FB78802990D36200652534 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05FB78812990D36200652534 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05FB78842990D9FD00652534 /* FavFruit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavFruit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05FB78852990D9FD00652534 /* FavFruit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavFruit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05FB78882990DBCC00652534 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		05FB788B2990DC7800652534 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		05FB788D2990E6FF00652534 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +80,16 @@
 		056B4501298E1AA200DE12ED /* BuahSegar-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				05FB788A2990DC5A00652534 /* Extensions */,
+				05FB787F2990D2FE00652534 /* Entities */,
 				05E762F6298E3E4100BF75A3 /* Models */,
 				056B4502298E1AA200DE12ED /* AppDelegate.swift */,
 				056B4504298E1AA200DE12ED /* SceneDelegate.swift */,
 				056B4506298E1AA200DE12ED /* LoginRegisterViewController.swift */,
 				05E762F1298E379A00BF75A3 /* LoginViewController.swift */,
 				056B4508298E1AA200DE12ED /* Main.storyboard */,
+				05FB788D2990E6FF00652534 /* FavoriteViewController.swift */,
+				05FB78882990DBCC00652534 /* RegisterViewController.swift */,
 				05FB787C2990C1C100652534 /* FruitItemTableViewCell.swift */,
 				05E762F3298E38CA00BF75A3 /* HomeViewController.swift */,
 				056B450E298E1AA400DE12ED /* Assets.xcassets */,
@@ -87,10 +103,28 @@
 		05E762F6298E3E4100BF75A3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				05E762F7298E3E5500BF75A3 /* User.swift */,
 				05FB787A2990B07400652534 /* Fruit.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		05FB787F2990D2FE00652534 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				05FB78842990D9FD00652534 /* FavFruit+CoreDataClass.swift */,
+				05FB78852990D9FD00652534 /* FavFruit+CoreDataProperties.swift */,
+				05FB78802990D36200652534 /* User+CoreDataClass.swift */,
+				05FB78812990D36200652534 /* User+CoreDataProperties.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		05FB788A2990DC5A00652534 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05FB788B2990DC7800652534 /* UIViewController+ShowAlert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +202,17 @@
 				056B4507298E1AA200DE12ED /* LoginRegisterViewController.swift in Sources */,
 				056B4503298E1AA200DE12ED /* AppDelegate.swift in Sources */,
 				056B450D298E1AA200DE12ED /* BuahSegar_iOS.xcdatamodeld in Sources */,
+				05FB788E2990E6FF00652534 /* FavoriteViewController.swift in Sources */,
+				05FB788C2990DC7800652534 /* UIViewController+ShowAlert.swift in Sources */,
 				05FB787D2990C1C100652534 /* FruitItemTableViewCell.swift in Sources */,
+				05FB78822990D36200652534 /* User+CoreDataClass.swift in Sources */,
+				05FB78872990D9FD00652534 /* FavFruit+CoreDataProperties.swift in Sources */,
 				05E762F2298E379A00BF75A3 /* LoginViewController.swift in Sources */,
 				056B4505298E1AA200DE12ED /* SceneDelegate.swift in Sources */,
+				05FB78862990D9FD00652534 /* FavFruit+CoreDataClass.swift in Sources */,
+				05FB78892990DBCC00652534 /* RegisterViewController.swift in Sources */,
+				05FB78832990D36200652534 /* User+CoreDataProperties.swift in Sources */,
 				05E762F4298E38CA00BF75A3 /* HomeViewController.swift in Sources */,
-				05E762F8298E3E5500BF75A3 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUAH_SEGAR_API_ENDPOINT = "https://fruityvice.com/api/fruit/all";
+				BUAH_SEGAR_API_ENDPOINT = "https://fruityvice.com/api/fruit";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -345,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUAH_SEGAR_API_ENDPOINT = "https://fruityvice.com/api/fruit/all";
+				BUAH_SEGAR_API_ENDPOINT = "https://fruityvice.com/api/fruit";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
