@@ -18,6 +18,7 @@
 		05E762F4298E38CA00BF75A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F3298E38CA00BF75A3 /* HomeViewController.swift */; };
 		05E762F8298E3E5500BF75A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E762F7298E3E5500BF75A3 /* User.swift */; };
 		05FB787B2990B07400652534 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB787A2990B07400652534 /* Fruit.swift */; };
+		05FB787D2990C1C100652534 /* FruitItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB787C2990C1C100652534 /* FruitItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		05E762F3298E38CA00BF75A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		05E762F7298E3E5500BF75A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		05FB787A2990B07400652534 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fruit.swift; path = ../../../../Fruit.swift; sourceTree = "<group>"; };
+		05FB787C2990C1C100652534 /* FruitItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				056B4506298E1AA200DE12ED /* LoginRegisterViewController.swift */,
 				05E762F1298E379A00BF75A3 /* LoginViewController.swift */,
 				056B4508298E1AA200DE12ED /* Main.storyboard */,
+				05FB787C2990C1C100652534 /* FruitItemTableViewCell.swift */,
 				05E762F3298E38CA00BF75A3 /* HomeViewController.swift */,
 				056B450E298E1AA400DE12ED /* Assets.xcassets */,
 				056B4510298E1AA400DE12ED /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				056B4507298E1AA200DE12ED /* LoginRegisterViewController.swift in Sources */,
 				056B4503298E1AA200DE12ED /* AppDelegate.swift in Sources */,
 				056B450D298E1AA200DE12ED /* BuahSegar_iOS.xcdatamodeld in Sources */,
+				05FB787D2990C1C100652534 /* FruitItemTableViewCell.swift in Sources */,
 				05E762F2298E379A00BF75A3 /* LoginViewController.swift in Sources */,
 				056B4505298E1AA200DE12ED /* SceneDelegate.swift in Sources */,
 				05E762F4298E38CA00BF75A3 /* HomeViewController.swift in Sources */,

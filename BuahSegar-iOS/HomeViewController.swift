@@ -7,7 +7,9 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDataSource {
+    
+    @IBOutlet var tblFruits: UITableView!
     
     let env = Bundle.main.infoDictionary! ["BUAH_SEGAR_API_ENDPOINT"] as! String
     
@@ -16,7 +18,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(env)
+        tblFruits.dataSource = self
+        
         let url = URL(string: env)!
         
         var req = URLRequest(url: url)
@@ -34,9 +37,20 @@ class HomeViewController: UIViewController {
             DispatchQueue.main.async {
                 self.fruits = resFruits
                 print(self.fruits.count)
+                self.tblFruits.reloadData()
             }
         }.resume()
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return fruits.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tblFruits.dequeueReusableCell(withIdentifier: "fruit_cell", for: indexPath) as! FruitItemTableViewCell
         
+        cell.populate(fruit: fruits[indexPath.row])
         
+        return cell
     }
 }
